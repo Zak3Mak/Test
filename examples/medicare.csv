@@ -1,3 +1,3 @@
-"Fcilty_nam","Shp_num_an","Shp_centre","Street_add","Locality","Postcode","Hrs_of_bus","Wheelchair","Display_wd","Fcilty_typ_2","Xcoord","Ycoord","uuid","result","Audio"
-"Test1","Cols Removed","Riverside Plaza","131 Monaro Street","Queanbeyan","2620","09:00-17:00 Monday to Friday, excluding Public Holidays","YES","1.5","http://www.medicareaustralia.gov.au/public/claims/offices.jsp","149.23532000","-35.35248400","67","",""
-"Test2","Test Address","Bathurst Chase","39 William Street","Bathurst","2795","09:00-17:00 Monday to Friday, excluding Public Holidays","YES","1.5","http://www.medicareaustralia.gov.au/public/claims/offices.jsp","149.58319300","-33.41619000","","",""
+"Fcilty_nam","Shp_num_an","Shp_centre","Street_add","Locality","Postcode","Hrs_of_bus","Wheelchair","Display_wd","Fcilty_typ_2","Xcoord","Ycoord","Audio"
+"Test1","Cols Removed","Riverside Plaza","131 Monaro Street","Queanbeyan","2620","09:00-17:00 Monday to Friday, excluding Public Holidays","YES","1.5","http://www.medicareaustralia.gov.au/public/claims/offices.jsp","149.23532000","-35.35248400",""
+"Test2","Last Collum Removed","Bathurst Chase","39 William Street","Bathurst","2795","09:00-17:00 Monday to Friday, excluding Public Holidays","YES","1.5","http://www.medicareaustralia.gov.au/public/claims/offices.jsp","149.58319300","-33.41619000",""
