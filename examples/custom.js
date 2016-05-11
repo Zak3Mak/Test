@@ -3,7 +3,7 @@
 // - custom info window (using Info Bubble)
 // - custom info window content (+ store hours)
 
-var ICON = new google.maps.MarkerImage('medicare.png', null, null,
+var ICON = new google.maps.MarkerImage('HD.png', null, null,
     new google.maps.Point(14, 13));
 
 var SHADOW = new google.maps.MarkerImage('medicare-shadow.png', null, null,
@@ -11,7 +11,7 @@ var SHADOW = new google.maps.MarkerImage('medicare-shadow.png', null, null,
 
 google.maps.event.addDomListener(window, 'load', function() {
   var map = new google.maps.Map(document.getElementById('map-canvas'), {
-    center: new google.maps.LatLng(-28, 135),
+    center: new google.maps.LatLng(-117, 33),
     zoom: 4,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
