@@ -3,7 +3,7 @@
 // - custom info window (using Info Bubble)
 // - custom info window content (+ store hours)
 
-var ICON = new google.maps.MarkerImage('medicare.png', null, null,
+var ICON = new google.maps.MarkerImage('HD.png', null, null,
     new google.maps.Point(14, 13));
 
 var SHADOW = new google.maps.MarkerImage('medicare-shadow.png', null, null,
