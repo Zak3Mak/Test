@@ -1,0 +1,11 @@
+Not Used,,Desc 1,Desc ln 2,Desc ln 2,Desc Ln 3,Desc LN 4,Desc LN 5,Bubble Info,Feature 1,,Bubble Info,Longitude,Latitude,,,Feature 2
+Fcilty_typ,State,Fcilty_nam,Shp_num_an,Shp_centre,Street_add,Locality,Postcode,Hrs_of_bus,Wheelchair,Display_wd,Fcilty_typ_2,Xcoord,Ycoord,uuid,result,Audio
+MO,NSW,Queanbeyan,Shop 47,Riverside Plaza,131 Monaro Street,Queanbeyan,2620,"09:00-17:00 Monday to Friday, excluding Public Holidays",YES,1.5,http://www.medicareaustralia.gov.au/public/claims/offices.jsp,149.23532,-35.352484,67,999,
+MO,Colorado,Denver Super Center,Shop 47,Riverside Plaza,131 Monaro Street,Queanbeyan,2620,"09:00-17:00 Monday to Friday, excluding Public Holidays",Yes,1.5,www.behr.com,-104.990251,39.7392358,67,999,
+MO,Illinois,Sauk Village Super Center,Shop 47,Riverside Plaza,131 Monaro Street,Queanbeyan,2620,"09:00-17:00 Monday to Friday, excluding Public Holidays",Yes,1.5,www.behr.com,-87.5675414,41.4883685,67,999,
+MO,Texas,Roanoke Super Center,Shop 47,Riverside Plaza,131 Monaro Street,Queanbeyan,2620,"09:00-17:00 Monday to Friday, excluding Public Holidays",Yes,1.5,www.behr.com,-97.2258483,33.0040126,67,999,
+MO,Florida,Orlando Super Center,Shop 47,Riverside Plaza,131 Monaro Street,Queanbeyan,2620,"09:00-17:00 Monday to Friday, excluding Public Holidays",Yes,1.5,www.behr.com,-81.3792365,28.5383355,67,999,
+MO,Georgia,McDonoguh Super Center,Shop 47,Riverside Plaza,131 Monaro Street,Queanbeyan,2620,"09:00-17:00 Monday to Friday, excluding Public Holidays",Yes,1.5,www.behr.com,-84.1468616,33.4473361,67,999,
+MO,Washington,Algona Super Center,Shop 47,Riverside Plaza,131 Monaro Street,Queanbeyan,2620,"09:00-17:00 Monday to Friday, excluding Public Holidays",Yes,1.5,www.behr.com,-122.2520647,47.2789896,67,999,
+MO,Pensylvania,Allentown Super Center,Shop 47,Riverside Plaza,131 Monaro Street,Queanbeyan,2620,"09:00-17:00 Monday to Friday, excluding Public Holidays",Yes,1.5,www.behr.com,-75.4901833,40.6084305,67,999,
+MO,California,Santa Ana Super Center,Shop 47,Riverside Plaza,131 Monaro Street,Queanbeyan,2620,"09:00-17:00 Monday to Friday, excluding Public Holidays",Yes,1.5,www.behr.com,-117.8678338,33.7455731,67,999,
