@@ -53,7 +53,7 @@ BEHRDataSource.prototype.parse_ = function(csv) {
     var store = new storeLocator.Store(row.uuid, position, features, {
       phone: row.Shp_centre,
       title: row.Fcilty_nam,
-      address: this.join_([shop, row.Street_add, locality], '<br>'),
+      address: this.join_([shop, row.Shp_centre, row.Street_add, locality], '<br>'),
       hours: row.Hrs_of_bus
     });
     stores.push(store);
