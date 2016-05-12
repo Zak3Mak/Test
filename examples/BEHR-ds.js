@@ -17,7 +17,7 @@ function BEHRDataSource() {
  * @private
  */
 BEHRDataSource.prototype.FEATURES_ = new storeLocator.FeatureSet(
-  new storeLocator.Feature('Wheelchair-YES', 'Wheelchair'),
+  new storeLocator.Feature('Wheelchair-YES', 'Super Center'),
   new storeLocator.Feature('Audio-YES', 'Audio')
 );
 
@@ -33,7 +33,7 @@ BEHRDataSource.prototype.getFeatures = function() {
  * @param {string} csv
  * @return {!Array.<!storeLocator.Store>}
  */
-MedicareDataSource.prototype.parse_ = function(csv) {
+BEHRDataSource.prototype.parse_ = function(csv) {
   var stores = [];
   var rows = csv.split('\n');
   var headings = this.parseRow_(rows[0]);
@@ -66,7 +66,7 @@ MedicareDataSource.prototype.parse_ = function(csv) {
  * @param {string} sep the separator.
  * @return {string}
  */
-MedicareDataSource.prototype.join_ = function(arr, sep) {
+BEHRDataSource.prototype.join_ = function(arr, sep) {
   var parts = [];
   for (var i = 0, ii = arr.length; i < ii; i++) {
     arr[i] && parts.push(arr[i]);
@@ -81,7 +81,7 @@ MedicareDataSource.prototype.join_ = function(arr, sep) {
  * @param {string} row
  * @return {Array.<string>}
  */
-MedicareDataSource.prototype.parseRow_ = function(row) {
+BEHRDataSource.prototype.parseRow_ = function(row) {
   // Strip leading quote.
   if (row.charAt(0) == '"') {
     row = row.substring(1);
@@ -104,7 +104,7 @@ MedicareDataSource.prototype.parseRow_ = function(row) {
  * @param {Array.<string>} row
  * @return {Object}
  */
-MedicareDataSource.prototype.toObject_ = function(headings, row) {
+BEHRDataSource.prototype.toObject_ = function(headings, row) {
   var result = {};
   for (var i = 0, ii = row.length; i < ii; i++) {
     result[headings[i]] = row[i];
