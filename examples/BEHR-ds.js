@@ -46,7 +46,7 @@ BEHRDataSource.prototype.parse_ = function(csv) {
 
     var position = new google.maps.LatLng(row.Ycoord, row.Xcoord);
 
-    var shop = this.join_([row.Shp_num_an,'<br>', row.Shp_centre], ', ');
+    var shop = this.join_([row.Shp_num_an, '<br>' row.Shp_centre], ', ');
     //var shop = this.join_([row.Shp_num_an], ', ');
     var locality = this.join_([row.Locality, row.Postcode], ', ');
 
