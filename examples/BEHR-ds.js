@@ -2,7 +2,7 @@
  * @extends storeLocator.StaticDataFeed
  * @constructor
  */
-function MedicareDataSource() {
+function BEHRDataSource() {
   $.extend(this, new storeLocator.StaticDataFeed);
 
   var that = this;
@@ -16,7 +16,7 @@ function MedicareDataSource() {
  * @type {!storeLocator.FeatureSet}
  * @private
  */
-MedicareDataSource.prototype.FEATURES_ = new storeLocator.FeatureSet(
+BEHRDataSource.prototype.FEATURES_ = new storeLocator.FeatureSet(
   new storeLocator.Feature('Wheelchair-YES', 'Wheelchair access'),
   new storeLocator.Feature('Audio-YES', 'Audio')
 );
@@ -24,7 +24,7 @@ MedicareDataSource.prototype.FEATURES_ = new storeLocator.FeatureSet(
 /**
  * @return {!storeLocator.FeatureSet}
  */
-MedicareDataSource.prototype.getFeatures = function() {
+BEHRDataSource.prototype.getFeatures = function() {
   return this.FEATURES_;
 };
 
