@@ -4,7 +4,7 @@
 // - custom info window content (+ store hours)
 
 var ICON = new google.maps.MarkerImage('Behr.png', null, null,
-    new google.maps.Point(14, 13));
+    new google.maps.Point(25, 23));
 
 var SHADOW = new google.maps.MarkerImage('medicare-shadow.png', null, null,
     new google.maps.Point(14, 13));
