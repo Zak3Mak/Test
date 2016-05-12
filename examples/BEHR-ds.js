@@ -46,14 +46,13 @@ BEHRDataSource.prototype.parse_ = function(csv) {
 
     var position = new google.maps.LatLng(row.Ycoord, row.Xcoord);
 
-    //var shop = this.join_([row.Shp_num_an, row.Shp_centre], ', ');
-    var shop = this.join_([row.Shp_num_an], ', ');
+    var shop = this.join_([row.Shp_num_an,'<br>', row.Shp_centre], ', ');
+    //var shop = this.join_([row.Shp_num_an], ', ');
     var locality = this.join_([row.Locality, row.Postcode], ', ');
 
     var store = new storeLocator.Store(row.uuid, position, features, {
-      phone: row.Shp_centre,
       title: row.Fcilty_nam,
-      address: this.join_([shop, row.Shp_centre, row.Street_add, locality], '<br>'),
+      address: this.join_([shop, row.Street_add, locality], '<br>'),
       hours: row.Hrs_of_bus
     });
     stores.push(store);
