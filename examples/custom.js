@@ -11,8 +11,8 @@ var ICON = new google.maps.MarkerImage('Behr.png', null, null,
 
 google.maps.event.addDomListener(window, 'load', function() {
   var map = new google.maps.Map(document.getElementById('map-canvas'), {
-    center: new google.maps.LatLng(-28, 135),
-    zoom: 4,
+    center: new google.maps.LatLng(38, -96),
+    zoom: 5,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 
