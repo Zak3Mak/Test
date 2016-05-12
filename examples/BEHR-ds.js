@@ -18,7 +18,7 @@ function BEHRDataSource() {
  */
 BEHRDataSource.prototype.FEATURES_ = new storeLocator.FeatureSet(
   new storeLocator.Feature('SuperCenter-YES', 'Super Center'),
-  new storeLocator.Feature('Audio-YES', 'Audio')
+  new storeLocator.Feature('Hub-YES', 'Hub Store')
 );
 
 /**
@@ -42,7 +42,7 @@ BEHRDataSource.prototype.parse_ = function(csv) {
     row = this.toObject_(headings, this.parseRow_(row));
     var features = new storeLocator.FeatureSet;
     features.add(this.FEATURES_.getById('SuperCenter-' + row.SuperCenter));
-    features.add(this.FEATURES_.getById('Audio-' + row.Audio));
+    features.add(this.FEATURES_.getById('Hub-' + row.Hub));
 
     var position = new google.maps.LatLng(row.Ycoord, row.Xcoord);
 
