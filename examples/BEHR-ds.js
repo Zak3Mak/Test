@@ -17,7 +17,7 @@ function BEHRDataSource() {
  * @private
  */
 BEHRDataSource.prototype.FEATURES_ = new storeLocator.FeatureSet(
-  new storeLocator.Feature('Wheelchair-YES', 'Super Center'),
+  new storeLocator.Feature('SuperCenter-YES', 'Super Center'),
   new storeLocator.Feature('Audio-YES', 'Audio')
 );
 
@@ -41,7 +41,7 @@ BEHRDataSource.prototype.parse_ = function(csv) {
   for (var i = 1, row; row = rows[i]; i++) {
     row = this.toObject_(headings, this.parseRow_(row));
     var features = new storeLocator.FeatureSet;
-    features.add(this.FEATURES_.getById('Wheelchair-' + row.Wheelchair));
+    features.add(this.FEATURES_.getById('SuperCenter-' + row.SuperCenter));
     features.add(this.FEATURES_.getById('Audio-' + row.Audio));
 
     var position = new google.maps.LatLng(row.Ycoord, row.Xcoord);
