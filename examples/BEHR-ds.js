@@ -17,7 +17,7 @@ function BEHRDataSource() {
  * @private
  */
 BEHRDataSource.prototype.FEATURES_ = new storeLocator.FeatureSet(
-  new storeLocator.Feature('Wheelchair-YES', 'Wheelchair access'),
+  new storeLocator.Feature('Wheelchair-YES', 'Super Center '),
   new storeLocator.Feature('Audio-YES', 'Audio')
 );
 
