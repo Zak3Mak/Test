@@ -2,17 +2,31 @@
 // - custom marker
 // - custom info window (using Info Bubble)
 // - custom info window content (+ store hours)
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
 
 var ICON = new google.maps.MarkerImage('Behr.png', null, null,
     new google.maps.Point(15, 33));
 
-//var SHADOW = new google.maps.MarkerImage('medicare-shadow.png', null, null,
-//    new google.maps.Point(14, 13));
+
+
+
+var coords = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+ document.querySelector('article').appendChild(map-canvas);
+
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(success);
+} else {
+  error('Geo Location is not supported');
+}
+
+
+
+
 
 google.maps.event.addDomListener(window, 'load', function() {
   var map = new google.maps.Map(document.getElementById('map-canvas'), {
-    center: new google.maps.LatLng(38, -96),
-    zoom: 5,
+    center: cords,
+    zoom: 10,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 
@@ -29,7 +43,6 @@ google.maps.event.addDomListener(window, 'load', function() {
     var markerOptions = {
       position: store.getLocation(),
       icon: ICON,
-     // shadow: SHADOW,
       title: store.getDetails().title
     };
     return new google.maps.Marker(markerOptions);
