@@ -18,7 +18,7 @@ google.maps.event.addDomListener(window, 'load', function() {
 
   var panelDiv = document.getElementById('panel');
 
-  var data = new MedicareDataSource;
+  var data = new BEHRDataSource;
 
   var view = new storeLocator.View(map, data, {
     geolocation: false,
