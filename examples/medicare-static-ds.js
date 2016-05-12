@@ -17,7 +17,7 @@ function MedicareDataSource() {
  * @private
  */
 MedicareDataSource.prototype.FEATURES_ = new storeLocator.FeatureSet(
-  new storeLocator.Feature('Wheelchair-YES', 'Wheelchair'),
+  new storeLocator.Feature('Wheelchair-YES', 'Wheelchair access'),
   new storeLocator.Feature('Audio-YES', 'Audio')
 );
 
